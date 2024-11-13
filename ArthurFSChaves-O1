@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1><mark style="background-color: red;">PROVA HTML5 TURMA O1</mark></h1>
+    <h2><mark style="background-color: blue;">Formulário</mark></h2>
+
+    <label for="nome"><strong>Nome:</strong></label><br>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <small><em>ex: Arthur Felipe De Sousa Chaves.</em></small>
+    <br><br>
+
+    <label for="Nome"><strong>Nome da Mãe:</strong></label><br>
+    <input type="text" id="nome" name="Nome" required>
+    <br>
+    <small><em>ex: Daniela Iris De Sousa.</em></small>
+    <br><br>
+
+    <label for="Telefone"><strong>Telefone</strong></label><br>
+    <input type="number" id="number" name="number" required>
+    <br>
+    <small><em>ex: (61) 99958-19XX</em></small>
+    <br><br>
+    
+    <input type="submit" value="Envi ar">
+
+    <h1> <mark style="background-color: blue"> Índice HTML5</mark></h1>
+
+    <ol type="1">
+    <li><STRong>Capitulo <ins>Os melhores</ins></STRong></li>
+        <ol type="I" >
+        <li>Seção <SUp>I</SUp></li>
+            <ol type="A">
+            <li>Subseção Carros</li>
+                <ol type="a">
+                    <li><del>Rolls Royce</del> (indisponível)</li>
+                    <li>Bugatti</li>
+                    <li>Ferrari</li>
+                </ol>
+            </ol>
+            
+        <li>Seção <sup>II</sup></li>
+        <ol type="A">
+        <li>Subseção "Motos"</li>
+                <ol type="a">
+                    <li>Ducati Diavel 1260 S</li>
+                    <li>BMW K 1600 Bagger</li>
+                    <li>Harley-Davidson</li>
+                </ol>
+            </ol>
+        <li>Seção <sup>III</sup></li>
+        <ol type="A">
+            <li>Subseção Jatinhos</li>
+                <ol type="a">
+                    <li>Dassault<sub>2</sub></li>
+                    <li>Pilatus PC-24</li>
+                    <li><abbr title="Bombardier">Challenger 350</abbr></li>
+                </ol>   
+            </ol>
+        </ol>
+
+        <blockquote cite="https://books.google.com">
+            "O sucesso é alcançado com perseverança e dedicação!"
+        </blockquote>
+         obs: A lista está ordenada niveis numéricos e alfabéticos  
+        </ol>
+        <p> <bdo dir="rtl">Nunca Desista!</bdo></p>
+        
+        </form>
+</body>
+</html>
