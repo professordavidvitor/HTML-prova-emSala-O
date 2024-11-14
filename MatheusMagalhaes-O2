@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROVA HTML 5 TURMA O2</title>
+    <style>
+        mark {
+            background-color: blue;
+        }
+        h1 {
+            color: azure;
+        }
+        </style>
+</head>
+<body>
+    <h1><mark>Formulário</mark></h1>
+
+    <label for="nome"><strong>Nome:</strong></label><br>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <small><em>Matheus de Souza Magalhaes.</em></small>
+    <br><br>
+
+    <label for="Nome"><strong>Nome da Mãe:</strong></label><br>
+    <input type="text" id="nome" name="Nome" required>
+    <br>
+    <small><em>Silvânia Pina de Souza.</em></small>
+    <br><br>
+
+    <label for="Telefone"><strong>Telefone</strong></label><br>
+    <input type="number" id="number" name="number" required>
+    <br>
+    <small><em>(61) 99364-6240</em></small>
+    <br><br>
+    
+    <input type="submit" value="Enviar">
+
+
+    <h1><mark>Indice HTML5</mark></h1>
+        <ol><li><strong>Capitulo Os Melhores</strong></li>
+
+            <ol> <li>Seção<sup>I</sup></li>
+                <ol type="A"> <li>Subseção Carros</li>
+                            <ol> 
+                                <li>Rolls Royee (indisponivel)</li>
+                                <li>Bugatti</li>
+                                <li>Ferrari</li>
+                            </ol>
+                    </ol>
+                    
+                <li>Seção<sup>II</sup></li>
+                <ol type="A"> <li>Subseção Motos</li>
+                            <ol> 
+                                <li>Ducati Diavel 1260 S</li>
+                                <li>BMW K 1600 Bagger</li>
+                                <li>Harley-Davidson</li>
+                            </ol>
+                    </ol>
+                <li>Seção<sup>III</sup></li>
+                <ol type="A"> <li>Subseção Jatinhos</li>
+                            <ol> 
+                                <li>Dassault</li>
+                                <li>Pilatus PC-24</li>
+                                <li>Challenger 350</li>
+                            </ol>
+                    </ol>
+            </ol>
+        </ol>
+
+        <p>"O sucesso é alcançado com perseverança e dedicação!"</p>
+        <p>"Nunca desista!!"</p>
+
+</body>
+</html>
